@@ -32,8 +32,14 @@ export class AppComponent implements AfterViewInit {
 //        because view children are are only accessable after angular has instantiated
 //        and populated the view before then, they will be undefined.
 
+//        IMPORTANT:THERE IS A DIFFERENCE BETWEEN VIEW AND CONTENT. 
+//         *The children element which 
+//        are located inside of its template of a component are called *view children *. 
+//        On the other hand, **elements which are used between the opening and closing 
+//        tags of the host element of a given component are called *content children **.
+
 //        MORE ON: 
-//                LIFE CYCLE HOOKS IN README
+//                  LIFE CYCLE HOOKS IN README
 //                  QUERY LIST https://angular.io/docs/ts/latest/api/core/index/QueryList-class.html
 
 //      DOCUMENTATION 
