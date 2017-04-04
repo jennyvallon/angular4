@@ -1,9 +1,9 @@
 //DIRECTIVE DECORATOR
 //THIS IS WHERE DIRECTIVE METADATA PROPERTIES ARE DECLARED AND DIRECTIVE CLASS IS EXPORTED
 
-import { DIRECTIVE } from '@angular/core'; //import directive decorator from angular core
+import { Directive } from '@angular/core'; //import directive decorator from angular core
 
-@DIRECTIVE({ //instantiating a DIRECTIVE with the following options
+@Directive({ //instantiating a DIRECTIVE with the following options
 //    Metadata Properties:
 //
 //    exportAs - name under which the component instance is exported in a template
