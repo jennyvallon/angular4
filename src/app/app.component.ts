@@ -1,5 +1,5 @@
 //COMPONENT DECORATOR
-//THIS IS WHERE COMPONENT METADATA PROPERTIES ARE DECLARED AND COMPONENT IS INSTANTIATED
+//THIS IS WHERE COMPONENT METADATA PROPERTIES ARE DECLARED AND COMPONENT IS EXPORTED
 
 import { Component } from '@angular/core'; //component decorator part of angular core
 
@@ -32,13 +32,11 @@ import { Component } from '@angular/core'; //component decorator part of angular
 
 //DOUBLE BRACKETED VARIABLES IN TEMPLATE URL ARE ASSIGNED VALUES AS OPTIONS
 export class AppComponent { //definitely using es6 because of class keyword
-    
-
-  title = 'app poop!';
+  title = 'app.component.ts';
 }
 
 //      DOCUMENTATION https://angular.io/docs/ts/latest/api/core/index/Component-decorator.html
-
+    
 //      QUESTION:
 //        HOW DO I STRUCTURE DATA RECEIVED FROM A FACTORY/PROVIDER?
 //        WHAT IS THE DIFFERENCE BETWEEN CHILDREN AND VIEW CHILDREN? (PROVIDER VS VIEWPROVIDER)
@@ -63,6 +61,20 @@ export class AppComponent { //definitely using es6 because of class keyword
 //        decorator, components can control their runtime behavior by implementing 
 //        various Life-Cycle hooks.
 
+
+//    GLOSSARY DEFINITION:
+//        An Angular class responsible for exposing data to a view and 
+//        handling most of the view’s display and user-interaction logic.
+//
+//        The component is one of the most important building blocks in the Angular system. 
+//        It is, in fact, an Angular directive with a companion template.
+//
+//        Apply the @Component decorator to the component class, thereby attaching to the 
+//        class the essential component metadata that Angular needs to create a component 
+//        instance and render the component with its template as a view.
+//
+//        Those familiar with "MVC" and "MVVM" patterns will recognize the component in 
+//        the role of "controller" or "view model".
 
 
 
